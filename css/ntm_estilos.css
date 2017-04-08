@@ -1,0 +1,212 @@
+/* INÍCIO DAS CONFIGURAÇÕES GLOBAIS */
+body {
+    font-family: "Segoe UI";
+    color: white;
+    background-color: darkgray;
+    margin: 0;
+}
+h1, h2, h3 {
+    margin: 0;
+    font-family: "Segoe Print";
+}
+.botao {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: darkgray;
+    border-radius: 20px;
+}
+/* FIM DAS CONFIGURAÇÕES GLOBAIS */
+/* INÍCIO DA NAVEGAÇÃO */
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: dimgray;
+}
+nav > a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+    font-family: "Segoe Print";
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+nav ul li {
+    text-align: center;
+    width: 100%;
+}
+nav ul li a {
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color: white;
+}
+/* FIM DA NAVEGAÇÃO */
+/* INÍCIO DO CABEÇALHO */
+header {
+    background-image: url('../img/fundo.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+header p {
+    margin-bottom: 2em;
+}
+/* FIM DO CABEÇALHO */
+/* INÍCIO DO SOBRE */
+#sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: darkgray;
+    color: white;
+}
+#sobre p {
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+}
+#sobre .botao {
+    background-color: white;
+    color: dimgray;
+}
+/* FIM DO SOBRE */
+/* INÍCIO DOS SERVIÇOS */
+#servicos {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#servicos div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+/* FIM DOS SERVIÇOS */
+/* INÍCIO DOS PRODUTOS */
+#produtos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    background-color: darkgray;
+}
+#produtos h2 {
+    margin-bottom: 20px;
+    color: white;
+
+}
+#produtos img {
+    border-radius: 20px;
+    width: 100%;
+}
+/* FIM DOS PRODUTOS */
+/* INÍCIO DO CONTATO */
+#contato {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+/* FIM DO CONTATO */
+/* INÍCIO DO RODAPÉ */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: dimgray;
+    color: white;
+}
+/* FIM DO RODAPÉ */
+/* MEDIA QUERIES */
+@media screen and (min-width: 768px) {
+    /* INÍCIO DA NAVEGAÇÃO */
+    nav {
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    nav ul {
+        flex-direction: row;
+        width: 70%;
+    }
+    /* FIM DA NAVEGAÇÃO */
+    /* INÍCIO DO CABEÇALHO */
+    header {
+        height: 500px;
+        height: 50vh;
+        justify-content: center;
+    }
+    /* FIM DO CABEÇALHO */
+    /* INÍCIO DO SOBRE */
+    #sobre {
+        height: 250px;
+        height: 30vh;
+        justify-content: center;
+        min-height: 250px;
+    }
+    /* FIM DO SOBRE */
+    /* INÍCIO DOS SERVIÇOS */
+    #servicos {
+        flex-direction: row;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+    #servicos h2 {
+        text-align: center;
+        width: 100%;
+    }
+    #servicos div {
+        flex-grow: 1;
+        flex-basis: 150px;
+        padding: 0 10px;
+    }
+    /* FIM DOS SERVIÇOS */
+    /* INÍCIO DOS PRODUTOS */
+    #produtos {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #produtos h2 {
+        width: 100%;
+        text-align: center;
+
+    }
+    #produtos img {
+        width: 33.3333333333%;
+    }
+    /* FIM DOS PRODUTOS */
+    /* INÍCIO DO CONTATO */
+    #contato {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    #contato h2,
+    #contato p {
+        width: 100%;
+    }
+    /* FIM DO CONTATO */
+}

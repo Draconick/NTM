@@ -13,7 +13,8 @@ h1, h2, h3 {
     color: white;
     text-decoration: none;
     padding: 10px 20px;
-    background-color: darkgray;
+    background-color: white;
+    color: dimgray;
     border-radius: 20px;
 }
 /* FIM DAS CONFIGURAÇÕES GLOBAIS */
@@ -82,26 +83,22 @@ header p {
     margin-bottom: 2.5em;
     max-width: 1000px;
 }
-#sobre .botao {
-    background-color: white;
-    color: dimgray;
-}
 /* FIM DO SOBRE */
-/* INÍCIO DOS SERVIÇOS */
-#servicos {
+/* INÍCIO DO CADASTRO */
+#cadastro {
     padding: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-#servicos div {
+#cadastro div {
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
     margin-top: 30px;
 }
-/* FIM DOS SERVIÇOS */
+/* FIM DO CADASTRO */
 /* INÍCIO DOS PRODUTOS */
 #produtos {
     display: flex;
@@ -128,6 +125,9 @@ header p {
     text-align: center;
     padding: 20px;
 }
+#contato img {
+    width: 20%;
+}
 /* FIM DO CONTATO */
 /* INÍCIO DO RODAPÉ */
 footer {
@@ -138,6 +138,7 @@ footer {
 }
 /* FIM DO RODAPÉ */
 /* MEDIA QUERIES */
+/* CONFIGURAÇÃO DO SITE RESPONSIVO PARA TELAS ACIMA DE 768px */
 @media screen and (min-width: 768px) {
     /* INÍCIO DA NAVEGAÇÃO */
     nav {
@@ -164,24 +165,20 @@ footer {
         min-height: 250px;
     }
     /* FIM DO SOBRE */
-    /* INÍCIO DOS SERVIÇOS */
-    #servicos {
-        flex-direction: row;
-        flex-wrap: wrap;
-        align-items: flex-start;
+    /* INÍCIO DO CADASTRO */
+    #cadastro {
         max-width: 1000px;
         margin: 0 auto;
     }
-    #servicos h2 {
+    #cadastro h2 {
         text-align: center;
-        width: 100%;
     }
-    #servicos div {
+    #cadastro div {
         flex-grow: 1;
         flex-basis: 150px;
         padding: 0 10px;
     }
-    /* FIM DOS SERVIÇOS */
+    /* FIM DO CADASTRO */
     /* INÍCIO DOS PRODUTOS */
     #produtos {
         flex-direction: row;
@@ -193,7 +190,7 @@ footer {
 
     }
     #produtos img {
-        width: 33.3333333333%;
+        width: 33.33%;
     }
     /* FIM DOS PRODUTOS */
     /* INÍCIO DO CONTATO */

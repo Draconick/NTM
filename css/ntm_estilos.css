@@ -207,3 +207,96 @@ footer {
     }
     /* FIM DO CONTATO */
 }
+ul#album-produtos{
+    border: 1px solid red;
+    width: 2000px;
+    height: auto;
+    padding: 25px;
+    list-style: none;
+    display: block;
+    overflow: hidden;
+}
+ul#album-produtos li{
+    display: inline-block;
+    width: 384px;
+    height: 216px;
+    border: 1px solid blue;
+    margin: 10px;
+    float: left;
+}
+section#produtos ul#album-produtos li:hover{
+    transform: scale(1.2);
+    transition: 1s;
+}
+section#produtos ul#album-produtos li#foto01{
+    background: url('../img/toalhas/toalha01.jpg');
+    background-position: 50% 50%;
+}
+section#produtos ul#album-produtos li#foto01:hover{
+    background-position: 0px 0px;
+    background-size: 100%;
+}
+section#produtos ul#album-produtos li#foto02{
+    background: url('../img/toalhas/toalha02.jpg');
+    background-position: 50% 50%;
+}
+section#produtos ul#album-produtos li#foto02:hover{
+    background-position: 0px 0px;
+    background-size: 100%;
+}
+section#produtos ul#album-produtos li#foto03{
+    background: url('../img/toalhas/toalha03.jpg');
+    background-position: 50% 50%;
+}
+section#produtos ul#album-produtos li#foto03:hover{
+    background-position: 0px 0px;
+    background-size: 100%;
+}
+section#produtos ul#album-produtos li#foto04{
+    background: url('../img/toalhas/toalha04.jpg');
+    background-position: 50% 50%;
+}
+section#produtos ul#album-produtos li#foto04:hover{
+    background-position: 0px 0px;
+    background-size: 100%;
+}
+section#produtos ul#album-produtos li#foto05{
+    background: url('../img/toalhas/toalha05.jpg');
+    background-position: 50% 50%;
+}
+section#produtos ul#album-produtos li#foto05:hover{
+    background-position: 0px 0px;
+    background-size: 100%;
+}
+section#produtos ul#album-produtos li#foto06{
+    background: url('../img/toalhas/toalha06.jpg');
+    background-position: 50% 50%;
+}
+section#produtos ul#album-produtos li#foto06:hover{
+    background-position: 0px 0px;
+    background-size: 100%;
+}
+section#produtos ul#album-produtos li#foto07{
+    background: url('../img/toalhas/toalha07.jpg');
+    background-position: 50% 50%;
+}
+section#produtos ul#album-produtos li#foto07:hover{
+    background-position: 0px 0px;
+    background-size: 100%;
+}
+section#produtos ul#album-produtos li#foto08{
+    background: url('../img/toalhas/toalha08.jpg');
+    background-position: 50% 50%;
+}
+section#produtos ul#album-produtos li#foto08:hover{
+    background-position: 0px 0px;
+    background-size: 100%;
+}
+section#produtos ul#album-produtos li#foto09{
+    background: url('../img/toalhas/toalha09.jpg');
+    background-position: 50% 50%;
+}
+section#produtos ul#album-produtos li#foto09:hover{
+    background-position: 0px 0px;
+    background-size: 100%;
+}
